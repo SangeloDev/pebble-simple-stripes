@@ -16,6 +16,9 @@
     "uuid": "b37c5cf2-528d-4e8a-83fc-166ba63b9827",
     "projectType": "rocky",
     "sdkVersion": "3",
+    "targetPlatforms": [
+      "basalt"
+    ],
     "enableMultiJS": true,
     "watchapp": {
       "watchface": true
