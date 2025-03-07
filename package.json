@@ -1,0 +1,30 @@
+{
+  "name": "pebble-simple-stripes",
+  "author": "Sangelo",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "displayName": "SimpleStripes",
+    "uuid": "b37c5cf2-528d-4e8a-83fc-166ba63b9827",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

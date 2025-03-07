@@ -1,0 +1,17 @@
+{
+  "languages": {
+    "JavaScript": {
+      "formatter": {
+        "external": {
+          // disable trailing commas (produce errors on build)
+          "command": "prettier",
+          "arguments": [
+            "--stdin-filepath",
+            "{buffer_path}",
+            "--no-trailing-comma"
+          ]
+        }
+      }
+    }
+  }
+}
